@@ -6,7 +6,6 @@
     font: inherit;
     vertical-align: baseline;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
 
 nav {
@@ -359,7 +358,6 @@ body {
     gap: 80px;
 }
 
-
 .contato .col-md-4 .fa {
     padding: 10px;
     font-size: 40px;
@@ -377,11 +375,9 @@ body {
     box-shadow: none !important;
 }
 
-
 .contato .btn .fa {
     margin-right: 10px;
 }
-
 
 .social-icons {
     top: 50%;
@@ -461,6 +457,7 @@ body {
     margin-bottom: 23px;
 }
 
+/* -- Responsividade -- */
 
 @media only screen and (max-width: 1286px) {
     .card {
