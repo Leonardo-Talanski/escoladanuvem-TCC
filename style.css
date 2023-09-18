@@ -92,6 +92,13 @@ h1 {
     border-radius: 10px;
 }
 
+.legenda {
+    border: 2px solid black;
+}
+
+.legenda-2 {
+    border: 3px solid #F69400;
+}
 
 footer {
     background-color: #232F3E;
