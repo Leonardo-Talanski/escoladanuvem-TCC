@@ -74,7 +74,7 @@ h1 {
 }
 
 .area {
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .aluno {
@@ -465,9 +465,10 @@ body {
 }
 
 .aluno img {
-    width: 220px;
-    border-radius: 10px;
-    margin-bottom: 23px;
+     width: 70%;
+     height: 65%;
+     object-fit: cover;
+     border-radius: 0.5rem;
 }
 
 /* -- Responsividade -- */
