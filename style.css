@@ -66,20 +66,23 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F69400;
 }
 
 .nome {
     font-weight: bold;
     margin: 10px;
+    color: #FFFFFF;
 }
 
 .area {
     font-size: 14px;
+    color: #FFFFFF;
 }
 
 .aluno {
     margin: 50px;
-    background-color: #D9D9D9;
+    background-color: #232F3E;
     height: 350px;
     width: 250px;
     display: flex;
