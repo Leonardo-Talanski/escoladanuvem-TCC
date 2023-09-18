@@ -5,11 +5,11 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: AmazonEmber, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 nav {
-    background-color: #232F3E;
+    background-color: #F69400;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,6 +24,15 @@ nav a {
 .logo {
     font-weight: bold;
     font-size: 25px;
+}
+
+.logo-aws {
+    display: flex;
+    width: 70px;
+}
+
+.logo-edn{
+    width: 120px;
 }
 
 .inicio {
