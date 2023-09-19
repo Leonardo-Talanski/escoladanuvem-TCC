@@ -36,6 +36,11 @@ nav a {
     width: 120px;
 }
 
+.logo-edn:hover {
+    transition: 300ms;
+    transform: scale3d(1.10, 1.10, 1.10); 
+}
+
 .inicio {
     margin-right: 50px;
 }
@@ -117,6 +122,11 @@ footer {
     justify-content: center;
     gap: 30px;
     margin-bottom: 30px;
+}
+
+.icones:hover {
+    transition: 300ms;
+    transform: scale3d(1.10, 1.10, 1.10);
 }
 
 i {
