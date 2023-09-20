@@ -51,7 +51,7 @@ nav a:hover {
 
 header {
     background-color: #232F3E;
-    height: 600px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
