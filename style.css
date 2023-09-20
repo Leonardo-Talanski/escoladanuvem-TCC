@@ -14,12 +14,25 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 80px;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+    transition: 0.5s
 }
 
 nav a {
     text-decoration: none;
     color: #FFF;
     font-size: 18pt;
+}
+
+nav.rolagem{
+    background-color: #232F3E;
+    
+}
+
+nav.rolagem.a{
+    color: #232F3E;
 }
 
 .logo {
