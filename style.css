@@ -95,13 +95,13 @@ button {
   color: black;
   text-align: center;
   padding: 15px 32px;
-  margin: 10px;
+  margin: 8px;
   width: 210px;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
   border-radius: 7%;
-  background-color: yellow;
+  background-color: #f69400;
 }
 
 /* --Estilização Nome Cards-- */
@@ -110,6 +110,7 @@ button {
   font-weight: bold;
   margin: 10px;
   color: #ffffff;
+  margin-top: 20px;
 }
 
 /* --Estilização Cidade Card-- */
@@ -117,6 +118,7 @@ button {
 .area {
   font-size: 14px;
   color: #ffffff;
+  margin-bottom: 25px;
 }
 
 /* --Estilização Cards-- */
@@ -124,7 +126,7 @@ button {
 .aluno {
   margin: 50px;
   background-color: #232f3e;
-  height: 400px;
+  height: 450px;
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -186,10 +188,11 @@ i {
 /* --Estilização imagesn cards-- */
 
 .aluno img {
-  width: 70%;
-  height: 65%;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 0.5rem;
+  object-position: 50% 35%;
 }
 
 /* --Efeito de Hover-- */
