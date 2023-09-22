@@ -88,7 +88,20 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: #f69400;
-  padding: 40px;
+  padding: 0px;
+}
+
+button {
+  color: black;
+  text-align: center;
+  padding: 15px 32px;
+  margin: 10px;
+  width: 210px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 7%;
+  background-color: yellow;
 }
 
 /* --Estilização Nome Cards-- */
