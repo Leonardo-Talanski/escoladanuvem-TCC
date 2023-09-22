@@ -26,9 +26,10 @@ nav a {
     font-size: 18pt;
 }
 
+/* --Efeito Rolagem com JS-- */
+
 nav.rolagem{
-    background-color: #232F3E;
-    
+    background-color: #232F3E; 
 }
 
 nav.rolagem.a{
@@ -40,27 +41,24 @@ nav.rolagem.a{
     font-size: 25px;
 }
 
+/* --Estilo Logo aws Principal-- */
+
 .logo-aws {
     display: flex;
     width: 65px;
 }
 
+/* --Estilo Logo EDN-- */
+
 .logo-edn{
     width: 120px;
-}
-
-.logo-edn:hover {
-    transition: 300ms;
-    transform: scale3d(1.10, 1.10, 1.10); 
 }
 
 .inicio {
     margin-right: 50px;
 }
 
-nav a:hover {
-    border-bottom: solid #232F3E;
-}
+/* --Estilização Principal Header-- */
 
 header {
     background-color: #232F3E;
@@ -72,6 +70,8 @@ header {
     color: #FFF;
 }
 
+/* --Estilização <h1> e <p>-- */
+
 h1 {
     font-size: 40px;
     font-weight: bold;
@@ -81,6 +81,8 @@ h1 {
     margin-top: 50px;
 }
 
+/* --Estilização Background principal-- */
+
 .alunos {
     display: flex;
     justify-content: center;
@@ -89,16 +91,22 @@ h1 {
     padding: 40px;
 }
 
+/* --Estilização Nome Cards-- */
+
 .nome {
     font-weight: bold;
     margin: 10px;
     color: #FFFFFF;
 }
 
+/* --Estilização Cidade Card-- */
+
 .area {
     font-size: 14px;
     color: #FFFFFF;
 }
+
+/* --Estilização Cards-- */
 
 .aluno {
     margin: 50px;
@@ -115,13 +123,19 @@ h1 {
     box-shadow: 10px 15px #0a0a0a;
 }
 
+/* --Contorno Preto Cards-- */
+
 .legenda {
     border: 2px solid black;
 }
 
+/* --Contorno Laranja Cards-- */
+
 .legenda-2 {
     border: 3px ridge #F69400;
 }
+
+/* --Configurações Estilização Footer-- */
 
 footer {
     background-color: #232F3E;
@@ -134,6 +148,8 @@ footer {
     gap: 25px;
 }
 
+/* --Estilização Ícones Footer-- */
+
 .icones {
     display: flex;
     justify-content: center;
@@ -141,360 +157,11 @@ footer {
     margin-bottom: 30px;
 }
 
-.icones:hover {
-    transition: 300ms;
-    transform: scale3d(1.10, 1.10, 1.10);
-}
+/* --Cor e Tamanho de fonte Ícone-- */
 
 i {
     font-size: 50px;
     color: #FFF;
-}
-
-/* PORTFÓLIO*/
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-#header {
-    height: 100vh;
-    background-image: url(assets/photo-1553095066-5014bc7b7f2d.jfif);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.user-box {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-}
-
-.user-box img {
-    border-radius: 50%;
-    width: 250px;
-    border: 2px solid #fff;
-}
-
-.user-box h1 {
-    color: #fff;
-    font-weight: bold;
-    margin: 10px;
-}
-
-.user-box p {
-    color: #fff;
-}
-
-.scroll-btn {
-    bottom: 30px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 1px solid #fff;
-    padding: 10px 10px 20px;
-    border-radius: 30px;
-}
-
-.scroll-bar span {
-    border: 2px solid #fff;
-    font-size: 10px;
-    border-radius: 30px;
-}
-
-.scroll-bar {
-    animation: mover 1s infinite alternate;
-}
-
-@keyframes mover {
-    0% {
-        transform: translateY(0);
-    }
-
-    100% {
-        transform: translateY(10px);
-    }
-}
-
-/*------About --------*/
-
-.about {
-    padding-top: 100px;
-    padding-bottom: -130px;
-    height: 800px;
-}
-
-.profile-img {
-    height: 500px;
-    border-radius: 20px;
-    border: 1px solid beige;
-}
-
-.nav-bar {
-    top: 0;
-    position: sticky;
-    z-index: 2;
-    background-color: #232F3E;
-}
-
-#logo {
-    color: #fff;
-}
-
-.nav-link {
-    color: #fff !important;
-}
-
-.skills-bar p {
-    margin-bottom: 6px;
-    font-weight: 600;
-}
-
-.progress {
-    border-radius: 16px;
-    margin-bottom: 10px;
-}
-
-.progress-bar {
-    border-radius: 16px;
-    background: #000 !important;
-}
-
-.links-cursos {
-    text-decoration: none;
-    color: rgb(42, 61, 199);
-}
-
-.texto-sobremim {
-    text-align: justify;
-}
-
-.resume {
-    margin-top: -50px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    background: #f9f9f9;
-}
-
-.resume h3 {
-    margin-bottom: 50px;
-}
-
-.timeline {
-    list-style-type: none;
-    position: relative;
-}
-
-.timeline:before {
-    content: '';
-    background: #555;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 1;
-}
-
-.timeline li {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    background: #fff;
-}
-
-.timeline li h4 {
-    background-color: #000;
-    padding: 5px 0 5px 20px;
-    color: #fff;
-    font-size: 15px;
-}
-
-.timeline li h4 span {
-    font-weight: bold;
-    color: #ccc;
-}
-
-.timeline li:before {
-    content: '';
-    background: #fff;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #000;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 1;
-}
-
-.justificarP {
-    text-align: justify;
-}
-
-
-.servicos {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.servicos h1 {
-    margin-bottom: 15px;
-}
-
-.meusProjetos {
-    padding-top: 25px;
-}
-
-.card {
-    border-radius: 25px !important;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-.card:hover {
-    -webkit-transform: scale(1.1) !important;
-    transform: scale(1.1) !important;
-}
-
-.btn-primary {
-    background-color: rgb(24, 33, 82) !important;
-}
-
-.btn-primary:hover {
-    background-color: black !important;
-}
-
-.card-netflix {
-    padding-top: 25px;
-}
-
-.contato {
-    padding-top: 50px;
-    background-image: url(/img/photo-1553095066-5014bc7b7f2d.jfif);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #fff;
-    background-color: #232F3E;
-    padding-bottom: 50px;
-}
-
-.link-redes {
-    text-decoration: none;
-    color: #fff;
-}
-
-.link-redes:hover {
-    color: #ccc;
-}
-
-.contato .row {
-    padding: 30px 0;
-    font-size: 22px;
-}
-
-.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-}
-
-.icones-div {
-    gap: 80px;
-}
-
-.contato .col-md-4 .fa {
-    padding: 10px;
-    font-size: 40px;
-}
-
-.contato .btn {
-    padding: 10px 25px 10px 25px;
-    margin: 5px;
-    border-radius: 30px;
-    border: 2px solid #fff;
-    background: transparent;
-}
-
-.contato .btn:focus {
-    box-shadow: none !important;
-}
-
-.contato .btn .fa {
-    margin-right: 10px;
-}
-
-.social-icons {
-    top: 50%;
-    transform: translateY(-50%);
-    position: sticky;
-    z-index: 1;
-    width: 80px;
-}
-
-.social-icons ul {
-    padding: initial;
-}
-
-.social-icons ul li {
-    height: 40px;
-    width: 40px;
-    list-style-type: none;
-    padding-left: 12;
-    padding-top: 6px;
-    margin-top: 5px;
-    color: #fff;
-    background: #000;
-}
-
-.social-icons ul li:hover {
-    padding-left: 30px;
-    width: 80px;
-    transition: 1s;
-}
-
-.altura {
-    height: 70px;
-}
-
-.alinhamento {
-    display: flex !important;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.curriculo {
-    width: 400px;
-    background-color: #FF9900 !important;
-    color: #232F3E;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none !important;
-}
-
-.curriculo i {
-    font-size: 35px;
-    color: #232F3E;
-}
-
-.curriculo p {
-    margin-top: 15px;
-    margin-left: 15px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.ancora_curriculo {
-    text-decoration: none;
 }
 
 .redirecionamento {
@@ -503,11 +170,29 @@ body {
     padding: 25px;
 }
 
+/* --Estilização imagesn cards-- */
+
 .aluno img {
      width: 70%;
      height: 65%;
      object-fit: cover;
      border-radius: 0.5rem;
+}
+
+/* --Efeito de Hover-- */
+
+.icones:hover {
+    transition: 300ms;
+    transform: scale3d(1.10, 1.10, 1.10);
+}
+
+.logo-edn:hover {
+    transition: 300ms;
+    transform: scale3d(1.10, 1.10, 1.10);
+}
+
+nav a:hover {
+    border-bottom: solid #232F3E;
 }
 
 /* -- Responsividade -- */
