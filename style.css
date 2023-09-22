@@ -100,8 +100,10 @@ button {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  border-radius: 7%;
+  border-radius: 15px;
   background-color: #f69400;
+  font-family: AmazonEmber, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #232f3e;
 }
 
 /* --Estilização Nome Cards-- */
@@ -126,7 +128,7 @@ button {
 .aluno {
   margin: 50px;
   background-color: #232f3e;
-  height: 450px;
+  height: 480px;
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -210,6 +212,15 @@ i {
 nav a:hover {
   border-bottom: solid #232f3e;
 }
+
+button:hover{
+  background-color: #232f3e;
+  transition: 0.3s ease-in;
+  border: 0.8px solid;
+  border-color: #f69400;
+  color: #f69400;
+}
+
 
 /* -- Responsividade -- */
 
