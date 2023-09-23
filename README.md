@@ -1,4 +1,4 @@
-<h1 align="center">TCC - Escola da Nuvem - Fundamentals</h1>
+<h1 align="center">TCC - Escola da Nuvem - AWS Fundamentals</h1>
 
 # Objetivo
 
