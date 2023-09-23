@@ -1,7 +1,7 @@
 
 window.addEventListener("scroll", function(){
     let header = document.querySelector('#nav')
-    header.classList.toggle('rolagem',window.scrollY > 300)
+    header.classList.toggle('rolagem',window.scrollY > 350)
 })
 
 const logo = document.querySelector(".logo img");
