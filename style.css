@@ -221,6 +221,11 @@ button:hover{
   color: #f69400;
 }
 
+.aluno img:hover {
+   transition: 300ms;
+   transform: scale3d(1.1, 1.1, 1.1);
+}
+
 /* -- Responsividade -- */
 
 @media only screen and (max-width: 1286px) {
