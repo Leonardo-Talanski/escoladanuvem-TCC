@@ -1,13 +1,13 @@
 
 window.addEventListener("scroll", function(){
     let header = document.querySelector('#nav')
-    header.classList.toggle('rolagem',window.scrollY > 350)
+    header.classList.toggle('rolagem',window.scrollY > 870)
 })
 
 const logo = document.querySelector(".logo img");
 
 window.addEventListener("scroll", function() {
-  if (window.scrollY > 300) {
+  if (window.scrollY > 870) {
     // Altera a logo para uma versão branca
     logo.src = "assets/logo-branca-pt-2-min.jpg";
 
