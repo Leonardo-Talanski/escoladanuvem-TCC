@@ -168,7 +168,7 @@ footer {
 
 .background-footer {
   background-image: url("assets/footer-back.jpg");
-  background-position: center center;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
