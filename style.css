@@ -62,12 +62,13 @@ nav.rolagem.a {
 
 header {
   background-color: #232f3e;
-  height: 400px;
+  height: 852px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
+  background-image: url("assets/wallpaper-aws.webp");
 }
 
 /* --Estilização <h1> e <p>-- */
@@ -163,6 +164,12 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 25px;
+}
+
+.background-footer {
+  background-image: url("assets/footer-back.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 /* --Estilização Ícones Footer-- */
