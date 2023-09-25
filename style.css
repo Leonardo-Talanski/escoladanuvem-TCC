@@ -68,7 +68,10 @@ header {
   justify-content: center;
   align-items: center;
   color: #fff;
-  background-image: url("assets/wallpaper-aws.webp");
+  background-image: url("assets/wallpaper-aws2.webp");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* --Estilização <h1> e <p>-- */
