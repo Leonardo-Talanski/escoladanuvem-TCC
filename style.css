@@ -281,6 +281,10 @@ button:hover {
   transform: scale3d(1.1, 1.1, 1.1);
 }
 
+nav.rolagem a:hover {
+  border-bottom: solid #f69400;
+}
+
 /* -- Responsividade -- */
 
 @media only screen and (max-width: 1286px) {
