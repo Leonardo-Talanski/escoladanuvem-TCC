@@ -76,13 +76,14 @@ header {
 
 /* --Estilização <h1> e <p>-- */
 
-h1 {
+.titulo-h1 {
   font-size: 40px;
   font-weight: bold;
 }
 
 .p_header {
-  margin-top: 50px;
+  margin-top: 30px;
+  font-size: 30px;
 }
 
 /* --Estilização Background principal-- */
