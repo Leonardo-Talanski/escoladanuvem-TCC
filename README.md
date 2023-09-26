@@ -15,7 +15,7 @@ Link : https://leonardo-talanski.github.io/escoladanuvem-TCC/
 
 # Status do Projeto 
 
-![Badge Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EMDESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge Concluido](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
 # Tecnologias Aplicadas
 
