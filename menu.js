@@ -23,3 +23,33 @@ window.addEventListener("scroll", function() {
     logo.height = 65;
   }
 });
+
+// Função para lidar com o clique no elemento com a classe .port
+        document.querySelector(".width-setinha").addEventListener("click", function(event) {
+            event.preventDefault(); // Impede o comportamento padrão do link
+
+            // Calcula a posição do ponto 860 na tela
+            var targetPosition = 860;
+
+            // Rola suavemente até a posição desejada
+            window.scrollTo({
+                top: targetPosition,
+                behavior: "smooth"
+            });
+        });
+
+
+
+// Função para lidar com o clique no elemento com a classe .port
+        document.querySelector(".port").addEventListener("click", function(event) {
+            event.preventDefault(); // Impede o comportamento padrão do link
+
+            // Calcula a posição do ponto 860 na tela
+            var targetPosition = 860;
+
+            // Rola suavemente até a posição desejada
+            window.scrollTo({
+                top: targetPosition,
+                behavior: "smooth"
+            });
+        });
