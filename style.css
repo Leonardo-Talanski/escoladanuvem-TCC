@@ -12,6 +12,8 @@ html {
   scroll-behavior: smooth;
 }
 
+/* --Estilização menu Nav-- */
+
 nav {
   background-color: #f69400;
   display: flex;
@@ -30,19 +32,12 @@ nav a {
   font-size: 18pt;
 }
 
-/* --Efeito Rolagem com JS-- */
-
 nav.rolagem {
   background-color: #232f3e;
 }
 
 nav.rolagem.a {
   color: #232f3e;
-}
-
-.logo {
-  font-weight: bold;
-  font-size: 25px;
 }
 
 /* --Estilo Logo aws Principal-- */
@@ -58,10 +53,14 @@ nav.rolagem.a {
   width: 120px;
 }
 
+/* --Estilização Início e Portfólios espaçamento-- */
+
 .inicio {
   margin-right: 50px;
   cursor: pointer;
 }
+
+/* --Classe adicionada em portfolios para efeito de rolagem JS-- */
 
 .port {
   margin-right: 50px;
@@ -82,7 +81,7 @@ header {
   background-size: cover;
 }
 
-/* --Estilização <h1> e <p>-- */
+/* --Estilização <h1>-- */
 
 .titulo-h1 {
   font-size: 45px;
@@ -96,11 +95,15 @@ header {
   -moz-text-fill-color: transparent;
 }
 
+/* --DIV que engloba todos <h!> e <p> em header-- */
+
 .div-texto {
   width: 50%;
   margin-top: 200px;
   margin-left: 50px;
 }
+
+/* --Estilização <p>- */
 
 .p_header {
   margin-top: 35px;
@@ -108,6 +111,8 @@ header {
   margin-bottom: 45px;
   opacity: 0.9;
 }
+
+/* --Configurações Setinha-- */
 
 .width-setinha {
   width: 60px;
@@ -117,6 +122,8 @@ header {
   animation: pulando 2s linear infinite;
   cursor: pointer;
 }
+
+/* --Efeito animado Setinha-- */
 
 @keyframes pulando {
   0% {
@@ -139,6 +146,8 @@ header {
   background-color: #f69400;
   padding: 0px;
 }
+
+/* --Estilizações Botões Linkedin e Currículo-- */
 
 button {
   color: black;
@@ -214,6 +223,8 @@ footer {
   gap: 25px;
 }
 
+/* --Estilização De Background do Footer-- */
+
 .background-footer {
   background-image: url("assets/footer-back.jpg");
   background-position: right;
@@ -235,6 +246,8 @@ i {
   font-size: 50px;
   color: #fff;
 }
+
+/* --Classe retirada-- */
 
 .redirecionamento {
   color: #000;
