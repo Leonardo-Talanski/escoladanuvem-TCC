@@ -81,10 +81,16 @@ header {
   font-weight: bold;
 }
 
+.div-texto {
+  width: 1300px;
+}
+
 .p_header {
   margin-top: 30px;
   font-size: 30px;
+  margin-bottom: 45px;
 }
+
 
 /* --Estilização Background principal-- */
 
