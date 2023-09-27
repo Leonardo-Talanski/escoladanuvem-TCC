@@ -11,7 +11,7 @@ const logo = document.querySelector(".logo img");
 window.addEventListener("scroll", function() {
   if (window.scrollY > 820) {
     // Altera a logo para uma versão branca
-    logo.src = "./assets/logo-branca-pt-2-min.jpg";
+    logo.src = "./assets/logo-aws-branca.jpg";
 
     // Define o tamanho da logo
     logo.width = 65;
