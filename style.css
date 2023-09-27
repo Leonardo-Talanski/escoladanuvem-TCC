@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: AmazonEmber, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* --Estilização menu Nav.-- */
+
+nav {
+  background-color: #f69400;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  top: 0;
+  position: sticky;
+  z-index: 2;
+  transition: 0.5s;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18pt;
+}
+
+nav.rolagem {
+  background-color: #232f3e;
+}
+
+nav.rolagem.a {
+  color: #232f3e;
+}
+
+/* --Estilo Logo aws Principal-- */
+
+.logo-aws {
+  display: flex;
+  width: 65px;
+}
+
+/* --Estilo Logo EDN-- */
+
+.logo-edn {
+  width: 120px;
+}
+
+/* --Estilização Início e Portfólios espaçamento-- */
+
+.inicio {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+/* --Classe adicionada em portfolios para efeito de rolagem JS-- */
+
+.port {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+/* --Estilização Principal Header-- */
+
+header {
+  background-color: #232f3e;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background-image: url("assets/wallpaper-aws2.webp");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* --Estilização <h1>-- */
+
+.titulo-h1 {
+  font-size: 45px;
+  font-weight: bold;
+  background-color: #f3ec78;
+  background-image: linear-gradient(900deg, #f3ec78, #af4261);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+/* --DIV que engloba todos <h!> e <p> em header-- */
+
+.div-texto {
+  width: 50%;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+/* --Estilização <p>- */
+
+.p_header {
+  margin-top: 35px;
+  font-size: 30px;
+  margin-bottom: 45px;
+  opacity: 0.9;
+}
+
+/* --Configurações Setinha-- */
+
+.width-setinha {
+  width: 60px;
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  animation: pulando 2s linear infinite;
+  cursor: pointer;
+}
+
+/* --Efeito animado Setinha-- */
+
+@keyframes pulando {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -12px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* --Estilização Background principal-- */
+
+.alunos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f69400;
+  padding: 0px;
+}
+
+/* --Estilizações Botões Linkedin e Currículo-- */
+
+button {
+  color: black;
+  text-align: center;
+  padding: 15px 32px;
+  margin: 8px;
+  width: 210px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #f69400;
+  font-family: AmazonEmber, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #232f3e;
+}
+
+/* --Estilização Nome Cards-- */
+
+.nome {
+  font-weight: bold;
+  margin: 10px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/* --Estilização Cidade Card-- */
+
+.area {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+/* --Estilização Cards-- */
+
+.aluno {
+  margin: 55px;
+  background-color: #232f3e;
+  height: 480px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 10px 15px #0a0a0a;
+}
+
+/* --Contorno Preto Cards-- */
+
+.legenda {
+  border: 2px solid black;
+}
+
+/* --Contorno Laranja Cards-- */
+
+.legenda-2 {
+  border: 3px ridge #f69400;
+}
+
+/* --Configurações Estilização Footer-- */
+
+footer {
+  background-color: #232f3e;
+  color: #fff;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+/* --Estilização De Background do Footer-- */
+
+.background-footer {
+  background-image: url("assets/footer-back.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+/* --Estilização Ícones Footer-- */
+
+.icones {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 0px;
+}
+
+/* --Cor e Tamanho de fonte Ícone-- */
+
+i {
+  font-size: 50px;
+  color: #fff;
+}
+
+/* --Classe retirada-- */
+
+.redirecionamento {
+  color: #000;
+  text-decoration: none;
+  padding: 25px;
+}
+
+/* --Estilização imagesn cards-- */
+
+.aluno img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  object-position: 50% 35%;
+}
+
+/* --Efeito de Hover-- */
+
+.icones:hover {
+  transition: 300ms;
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.logo-edn:hover {
+  transition: 300ms;
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+nav a:hover {
+  border-bottom: solid #232f3e;
+}
+
+button:hover {
+  background-color: #232f3e;
+  transition: 0.3s ease-in;
+  border: 0.8px solid;
+  border-color: #f69400;
+  color: #f69400;
+}
+
+.aluno img:hover {
+  transition: 300ms;
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+nav.rolagem a:hover {
+  border-bottom: solid #f69400;
+}
+
+/* -- Responsividade -- */
+
+@media only screen and (max-width: 1286px) {
+  .card {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .profile-img {
+    width: 80%;
+    height: 90%;
+  }
+
+  .about {
+    padding-top: 100px;
+    padding-bottom: -130px;
+    height: 1500px;
+  }
+}
