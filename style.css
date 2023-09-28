@@ -446,7 +446,7 @@ nav.rolagem a:hover {
       align-items: center;
       background-color: #f69400;
       padding: 0px;
-      margin-right: 0px;
+      margin-left: -9px;
       width: 443px;
     }
     .aluno {
