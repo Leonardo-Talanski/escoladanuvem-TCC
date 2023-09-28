@@ -376,10 +376,36 @@ nav.rolagem a:hover {
   }
 }
 @media screen and (max-width: 570px) {
-  .title-banner > p {
-    font-size: 9pt;
-  }
+  .alunos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f69400;
+    padding: 15px;
+    margin-right: 0px;
 }
+.aluno {
+    margin: 17px;
+    background-color: #232f3e;
+    height: 480px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 25px;
+    box-shadow: 10px 15px #0a0a0a;
+  }
+  .width-setinha {
+    width: 50px;
+    position: absolute;
+    top: 93%;
+    left: 46%;
+    animation: pulando 2s linear infinite;
+    cursor: pointer;
+  }
 @media screen and (max-width: 435px) {
   .title-banner > h1 {
     font-size: 45pt;
