@@ -363,11 +363,16 @@ nav.rolagem a:hover {
   }
 }
 @media screen and (max-width: 670px) {
-  .title-banner > h1 {
-    font-size: 52pt;
+  .titulo-h1 {
+    font-size: 17pt;
   }
-  .title-banner > p {
-    font-size: 11pt;
+  .p_header {
+    font-size: 12pt;
+  }
+  header {
+    height: calc(100vh - 80px);
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 @media screen and (max-width: 570px) {
