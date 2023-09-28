@@ -382,7 +382,7 @@ nav.rolagem a:hover {
     align-items: center;
     background-color: #f69400;
     padding: 15px;
-    margin-right: 0px;
+    margin-left: -10px;
   }
   header {
     background-color: #232f3e;
@@ -396,7 +396,7 @@ nav.rolagem a:hover {
     background-size: contain;
   }
   .aluno {
-    margin: 17px;
+    margin: 7px;
     background-color: #232f3e;
     height: 480px;
     width: 200px;
@@ -407,7 +407,7 @@ nav.rolagem a:hover {
     border-radius: 10px;
     border: 1px solid;
     padding: 25px;
-    box-shadow: 10px 15px #0a0a0a;
+    box-shadow: 5px 15px #0a0a0a;
   }
   .width-setinha {
     width: 50px;
@@ -579,14 +579,14 @@ nav.rolagem a:hover {
       color: #232f3e;
     }
     footer {
-  background-color: #232f3e;
-  color: #fff;
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-}
-}
+      background-color: #232f3e;
+      color: #fff;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+    }
+  }
 }
