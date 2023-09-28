@@ -383,8 +383,19 @@ nav.rolagem a:hover {
     background-color: #f69400;
     padding: 15px;
     margin-right: 0px;
-}
-.aluno {
+  }
+  header {
+    background-color: #232f3e;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-image: url("assets/wallpaper-header.webp");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .aluno {
     margin: 17px;
     background-color: #232f3e;
     height: 480px;
@@ -406,11 +417,85 @@ nav.rolagem a:hover {
     animation: pulando 2s linear infinite;
     cursor: pointer;
   }
-@media screen and (max-width: 435px) {
-  .title-banner > h1 {
-    font-size: 45pt;
-  }
-  .title-banner > p {
-    font-size: 7pt;
+  @media screen and (max-width: 435px) {
+    header {
+      background-color: #232f3e;
+      height: calc(100vh - 80px);
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      background-image: none;
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    .titulo-h1 {
+      font-size: 20pt;
+    }
+    .p_header {
+      font-size: 10pt;
+    }
+    .div-texto {
+      width: 50%;
+      margin-top: 90px;
+      margin-left: 80px;
+    }
+    .alunos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f69400;
+      padding: 0px;
+      margin-right: 0px;
+      width: 443px;
+    }
+    .aluno {
+      margin: 17px;
+      background-color: #232f3e;
+      height: 350px;
+      width: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      border: 1px solid;
+      padding: 25px;
+      box-shadow: 5px 10px #0a0a0a;
+    }
+    .aluno img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 0.5rem;
+      object-position: 50% 35%;
+    }
+    .area {
+      font-size: 14px;
+      color: #ffffff;
+      margin-bottom: 5px;
+    }
+    .width-setinha {
+      width: 50px;
+      position: absolute;
+      top: 93%;
+      left: 45%;
+      animation: pulando 2s linear infinite;
+      cursor: pointer;
+    }
+    button {
+      color: black;
+      text-align: center;
+      padding: 15px 32px;
+      margin: 8px;
+      width: 150px;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 15px;
+      background-color: #f69400;
+      font-family: AmazonEmber, Helvetica Neue, Helvetica, Arial, sans-serif;
+      color: #232f3e;
+    }
   }
 }
