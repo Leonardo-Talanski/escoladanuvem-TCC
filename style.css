@@ -543,6 +543,7 @@ nav.rolagem a:hover {
       border: 1px solid;
       padding: 25px;
       box-shadow: 5px 10px #0a0a0a;
+      margin-left: -1px;
     }
     .aluno img {
       width: 150px;
