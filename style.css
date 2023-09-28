@@ -561,7 +561,7 @@ nav.rolagem a:hover {
       width: 50px;
       position: absolute;
       top: 93%;
-      left: 45%;
+      left: 42%;
       animation: pulando 2s linear infinite;
       cursor: pointer;
     }
