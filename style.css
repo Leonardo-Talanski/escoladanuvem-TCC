@@ -312,10 +312,10 @@ nav.rolagem a:hover {
     background-size: contain;
   }
   .width-setinha {
-    width: 60px;
+    width: 55px;
     position: absolute;
-    top: 92%;
-    left: 37%;
+    top: 93%;
+    left: 47%;
     animation: pulando 2s linear infinite;
     cursor: pointer;
   }
