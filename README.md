@@ -11,7 +11,7 @@ de 11 milhões de requisições por mês.
 
 # Link do Projeto
 
-Link : https://leonardo-talanski.github.io/escoladanuvem-TCC/
+Link : https://grupo5-edn-tcc.netlify.app/
 
 # Status do Projeto 
 
