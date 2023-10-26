@@ -7,7 +7,7 @@ implantação de um ou mais serviços na nuvem AWS, com rede de entrega de conte
 com baixa latência, com segurança, e armazenamento durável, para atender a demanda
 de 11 milhões de requisições por mês. 
 
-¹requisições do tipo get, select.<br><br>
+*requisições do tipo get, select.<br><br>
 
 # Link do Projeto
 
