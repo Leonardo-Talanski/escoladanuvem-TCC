@@ -11,6 +11,8 @@ de 11 milhões de requisições por mês.
 
 # Link do Projeto
 
+[link](https://grupo5-edn-tcc.netlify.app/){:target="_blank"}
+
 Link : https://grupo5-edn-tcc.netlify.app/
 
 Layout no Figma : https://www.figma.com/file/04QG2wwFM6fPk09KWiporr/TCC---Escola-da-Nuvem---Grupo-5?type=design&node-id=0-1&mode=design&t=R44p6Zs5j6iwZvmh-0
